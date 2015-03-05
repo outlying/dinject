@@ -26,5 +26,7 @@ public class MainActivity extends ActionBarActivity {
         Dagger_AlphaComponent.create().inject( this );
 
         Dagger_BetaComponent.create().inject( this );
+
+
     }
 }
